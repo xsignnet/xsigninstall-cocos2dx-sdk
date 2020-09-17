@@ -9,8 +9,8 @@ cocos2d-x 集成 xsigninstall SDK
 ## 桥接文件集成
 #### 下载桥接文件
 	下载后将XSignInstallCocos2dxCpp整个目录放到Classes目录下（或其他文件目录），并配置mk文件（除了ios子目录外），再将src内文件放入android工程src目录下
-    ![classes](res/android_classes.jpg)
-    ![src](res/android_src.png)
+![ios_classes](res/android_classes.jpg)
+![android_src](res/android_src.png)
 #### 导入头文件
 在`AppActivity.java`中导入头文件
 ``` cpp
@@ -50,7 +50,7 @@ protected void onStart() {
 ## 桥接文件集成
 #### 下载并导入桥接文件
 	下载后将XSignInstallCocos2dxCpp整个目录放到Classes目录下（或其他文件目录），并导入整个目录到项目中（除了android子目录外）
-    ![classes](res/ios_classes.jpg)
+![ios_classes](res/ios_classes.jpg)
 #### 导入头文件
 在 `AppController.mm`中导入头文件
 ``` cpp
@@ -125,4 +125,3 @@ protected void onStart() {
 ## 导出apk/api包并上传
 - 代码集成完毕后，需要导出安装包上传xsigninstall后台，xsigninstall会自动完成所有的应用配置工作。  
 - 上传完成后即可开始在线模拟测试，体验完整的App安装/拉起流程；待测试无误后，再完善下载配置信息。  
-

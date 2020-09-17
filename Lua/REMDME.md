@@ -9,6 +9,7 @@ cocos2d-x 集成 xsigninstall SDK
 ## 桥接文件集成
 #### 下载桥接文件
 	下载后将XSignInstallCocos2dxLua整个目录放到Classes目录下（或其他文件目录），再将src内文件放入android工程src目录下
+![android_src](res/android_src.png)
 #### 导入头文件
 在`AppActivity.java`中导入头文件
 ``` cpp
@@ -48,7 +49,7 @@ protected void onStart() {
 ## 桥接文件集成
 #### 下载并导入桥接文件
 	下载后将XSignInstallCocos2dxLua整个目录放到Classes目录下（或其他文件目录），并导入整个目录到项目中（除了android子目录外）
-    ![上传安装包](res/ios_classes.jpg)
+![ios_classes.jpg](res/ios_classes.jpg)
 #### 导入头文件
 在 `AppController.mm`中导入头文件
 ``` cpp
